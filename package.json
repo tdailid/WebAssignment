@@ -1,0 +1,22 @@
+{
+  "name": "webassignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tatianadailid/WebAssignment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tatianadailid/WebAssignment/issues"
+  },
+  "homepage": "https://github.com/tatianadailid/WebAssignment#readme",
+  "devDependencies": {
+    "cypress": "^10.6.0"
+  }
+}

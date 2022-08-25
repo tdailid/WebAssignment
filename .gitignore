@@ -1,0 +1,24 @@
+# package directories
+node_modules
+jspm_packages
+
+# history of file changes for VSCode
+.history
+
+# code coverage reports
+coverage
+!scripts/test/coverage
+
+# Serverless directories
+.serverless
+
+# Webpack directories
+.webpack
+
+# Ignore tmp files
+tmp
+
+# custom
+/workdir
+.vscode/launch.json
+**/*.code-workspace
