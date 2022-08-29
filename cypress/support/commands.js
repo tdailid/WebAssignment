@@ -23,3 +23,14 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+Cypress.Commands.add('openHomePage', () => {
+    cy.visit('https://qa-task.backbasecloud.com/', {
+        auth: {
+            username: 'candidatex',
+            password: 'qa-is-cool',
+        },
+    })
+})
+
+
